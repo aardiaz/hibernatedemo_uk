@@ -16,6 +16,10 @@
         <property name="hibernate.hbm2ddl.auto">update</property><!-- create,update -->
 
         <mapping class="com.model.Student" />
+        <mapping class="com.model.Address" />
+        <mapping class="com.model.Employee" />
+        <mapping class="com.model.Phone" />
+        <mapping class="com.model.Department" />
         
     </session-factory>
 </hibernate-configuration>
